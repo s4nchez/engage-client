@@ -23,19 +23,24 @@ h4. Maven support
 
  You can add this project directly to your dependencies. For that you first need to include its repository in your *pom.xml*:
 
-@
-<repository>
-	<id>maven.isanchez.net</id>
-	<url>http://maven.isanchez.net/</url>
-</repository>
-@
+<pre>
+<code>
+	<repository>
+		<id>maven.isanchez.net</id>
+		<url>http://maven.isanchez.net/</url>
+	</repository>
+</code>
+</pre>
+
 
  Then the dependency can be described as:
 
-@
-<dependency>
-	<groupId>net.isanchez</groupId>
-	<artifactId>engage-client</groupId>
-	<version>0.1</version>
-</dependency>
-@
+<pre>
+<code>
+	<dependency>
+		<groupId>net.isanchez</groupId>
+		<artifactId>engage-client</groupId>
+		<version>0.1</version>
+	</dependency>
+</code>
+</pre>
