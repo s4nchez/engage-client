@@ -6,10 +6,12 @@ p. It also handles error documents throwing exceptions that can be handled by ja
 
 h4. Usage
 
-  @
-final EngageClient client = new EngageClient("apiKey", "accessToken");
-final AuthInfo authInfo = client.authInfo(true);
-  @
+<pre>
+<code>
+	final EngageClient client = new EngageClient("apiKey", "accessToken");
+	final AuthInfo authInfo = client.authInfo(true);
+</code>
+</pre>
 
  That's all you need to start playing with the "Engage API":https://rpxnow.com/docs
 
