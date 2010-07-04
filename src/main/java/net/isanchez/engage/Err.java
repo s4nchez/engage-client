@@ -1,4 +1,4 @@
-package net.isanchez.jengage;
+package net.isanchez.engage;
 
 public class Err {
 	private String msg;

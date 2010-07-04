@@ -1,10 +1,10 @@
-package net.isanchez.jengage.json;
+package net.isanchez.engage.json;
 
 import com.google.gson.Gson;
-import net.isanchez.jengage.AuthInfo;
-import net.isanchez.jengage.EngageClientException;
-import net.isanchez.jengage.Err;
-import net.isanchez.jengage.Stat;
+import net.isanchez.engage.AuthInfo;
+import net.isanchez.engage.EngageClientException;
+import net.isanchez.engage.Err;
+import net.isanchez.engage.Stat;
 
 import java.io.Reader;
 

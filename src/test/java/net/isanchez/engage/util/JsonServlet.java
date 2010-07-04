@@ -1,4 +1,4 @@
-package net.isanchez.jengage.util;
+package net.isanchez.engage.util;
 
 import org.apache.commons.io.IOUtils;
 

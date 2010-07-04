@@ -1,7 +1,7 @@
-package net.isanchez.jengage;
+package net.isanchez.engage;
 
-import net.isanchez.jengage.http.HttpClient;
-import net.isanchez.jengage.json.JsonHandler;
+import net.isanchez.engage.http.HttpClient;
+import net.isanchez.engage.json.JsonHandler;
 import org.junit.Before;
 import org.junit.Test;
 

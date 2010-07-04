@@ -1,4 +1,4 @@
-package net.isanchez.jengage.util;
+package net.isanchez.engage.util;
 
 public class EngageTestServer {
 	private static final long TIMEOUT = 1000;

@@ -1,8 +1,8 @@
-package net.isanchez.jengage.json;
+package net.isanchez.engage.json;
 
-import net.isanchez.jengage.AuthInfo;
-import net.isanchez.jengage.EngageClientException;
-import net.isanchez.jengage.Profile;
+import net.isanchez.engage.AuthInfo;
+import net.isanchez.engage.EngageClientException;
+import net.isanchez.engage.Profile;
 import org.junit.Test;
 
 import java.io.IOException;

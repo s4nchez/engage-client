@@ -1,4 +1,4 @@
-package net.isanchez.jengage.http;
+package net.isanchez.engage.http;
 
 import org.junit.Test;
 

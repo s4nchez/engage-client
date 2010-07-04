@@ -1,4 +1,4 @@
-package net.isanchez.jengage;
+package net.isanchez.engage;
 
 public class EngageClientException extends RuntimeException {
 	private static final long serialVersionUID = -5178375385610109376L;

@@ -1,4 +1,4 @@
-package net.isanchez.jengage.http;
+package net.isanchez.engage.http;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

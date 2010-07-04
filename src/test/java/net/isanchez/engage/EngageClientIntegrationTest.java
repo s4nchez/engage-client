@@ -1,6 +1,6 @@
-package net.isanchez.jengage;
+package net.isanchez.engage;
 
-import net.isanchez.jengage.util.EngageTestServer;
+import net.isanchez.engage.util.EngageTestServer;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

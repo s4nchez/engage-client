@@ -1,6 +1,6 @@
-package net.isanchez.jengage.http;
+package net.isanchez.engage.http;
 
-import net.isanchez.jengage.EngageClientException;
+import net.isanchez.engage.EngageClientException;
 
 public class HttpClientClientException extends EngageClientException {
 	private static final long serialVersionUID = -3963173011983047519L;
