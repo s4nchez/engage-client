@@ -10,14 +10,22 @@ import java.util.Map;
 public class EngageClient {
 
 	private String baseUrl = "https://rpxnow.com/api/v2/";
-	private final HttpClient httpClient = new HttpClient();
-	private final JsonHandler jsonHandler = new JsonHandler();
+	private HttpClient httpClient = new HttpClient();
+	private JsonHandler jsonHandler = new JsonHandler();
 
 	private final Map<String, String> baseParameters = new HashMap<String, String>();
 
 	public EngageClient(String apiKey, String token) {
 		baseParameters.put("apiKey", apiKey);
 		baseParameters.put("token", token);
+	}
+
+	void setHttpClient(HttpClient httpClient) {
+		this.httpClient = httpClient;
+	}
+
+	void setJsonHandler(JsonHandler jsonHandler) {
+		this.jsonHandler = jsonHandler;
 	}
 
 	public void setBaseUrl(String baseUrl) {

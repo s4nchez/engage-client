@@ -5,7 +5,10 @@ import net.isanchez.jengage.EngageClientException;
 import net.isanchez.jengage.Profile;
 import org.junit.Test;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
 
 import static junit.framework.Assert.fail;
 import static org.junit.Assert.assertEquals;
