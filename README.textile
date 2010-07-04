@@ -13,15 +13,11 @@ h4. Usage
 </code>
 </pre>
 
- That's all you need to start playing with the "Engage API":https://rpxnow.com/docs
-
-h4. Dependencies
-
-  * "gson 1.4":http://code.google.com/p/google-gson/
+p. That's all you need to start playing with the "Engage API":https://rpxnow.com/docs
 
 h4. Maven support
 
- If you're using maven, you can add this project directly to your dependency list. For that you first need to include its repository in your *pom.xml*:
+p. If you're using maven, you can add this project directly to your dependency list. For that you first need to include its repository in your *pom.xml*:
 
 <pre>
 <code>
@@ -32,8 +28,7 @@ h4. Maven support
 </code>
 </pre>
 
-
- Then the dependency can be described as:
+p. Then the dependency can be described as:
 
 <pre>
 <code>
@@ -44,3 +39,7 @@ h4. Maven support
 	</dependency>
 </code>
 </pre>
+
+h4. Dependencies
+
+  * "gson 1.4":http://code.google.com/p/google-gson/
