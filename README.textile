@@ -1,1 +1,39 @@
 h1. Janrain Engage (formerly RPX) client for Java
+
+p. This _lightweight_ library can make the API calls to the "Engage":http://www.janrain.com/products/engage servers and translate  _json responses_ to correspondent Java objects.
+
+p. It also handles error documents throwing exceptions that can be handled by java code.
+
+h4. Usage
+
+@
+	final EngageClient client = new EngageClient("apiKey", "accessToken");
+	final AuthInfo authInfo = client.authInfo(true);
+@
+
+ That's all you need to start playing with the "Engage API":https://rpxnow.com/docs
+
+h4. Dependencies
+
+  * "gson 1.4":http://code.google.com/p/google-gson/
+
+h4. Maven support
+
+ You can add this project directly to your dependencies. For that you first need to include its repository in your *pom.xml*:
+
+@
+<repository>
+	<id>maven.isanchez.net</id>
+	<url>http://maven.isanchez.net/</url>
+</repository>
+@
+
+ Then the dependency can be described as:
+
+@
+<dependency>
+	<groupId>net.isanchez</groupId>
+	<artifactId>engage-client</groupId>
+	<version>0.1</version>
+</dependency>
+@
