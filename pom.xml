@@ -64,25 +64,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<extensions>
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ftp</artifactId>
-			</extension>
-		</extensions>
 	</build>
-
-	<distributionManagement>
-		<repository>
-			<id>maven.isanchez.net</id>
-			<name>Project Release Repository</name>
-			<url>ftp://maven.isanchez.net/maven.isanchez.net</url>
-		</repository>
-		<snapshotRepository>
-			<id>maven.isanchez.net</id>
-			<name>Project Snapshot Repository</name>
-			<url>ftp://maven.isanchez.net/maven.isanchez.net</url>
-		</snapshotRepository>
-	</distributionManagement>
 
 </project>
