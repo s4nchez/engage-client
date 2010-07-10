@@ -11,7 +11,7 @@
 
 	<groupId>net.isanchez</groupId>
 	<artifactId>engage-client</artifactId>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>engage-client</name>
 	<description>Janrain Engage client for Java</description>
