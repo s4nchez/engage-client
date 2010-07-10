@@ -13,6 +13,28 @@
 	<groupId>net.isanchez</groupId>
 	<artifactId>engage-client</artifactId>
 	<version>0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>engage-client</name>
+	<description>Janrain Engage client for Java</description>
+	<url>http://github.com/s4nchez/engage-client</url>
+	<licenses>
+		<license>
+			<name>Apache 2</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>s4nchez</id>
+			<name>Ivan Sanchez</name>
+			<email>ivan@isanchez.net</email>
+			<url>http://isanchez.net</url>
+			<timezone>GMT</timezone>
+		</developer>
+	</developers>
 
 	<scm>
 		<connection>scm:git:git@github.com:s4nchez/engage-client.git</connection>
