@@ -4,12 +4,23 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>3</version>
+	</parent>
+
 	<groupId>net.isanchez</groupId>
 	<artifactId>engage-client</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
+
+	<scm>
+		<connection>scm:git:git@github.com:s4nchez/engage-client.git</connection>
+		<developerConnection>scm:git:git@github.com:s4nchez/engage-client.git</developerConnection>
+		<url>git@github.com:s4nchez/engage-client.git</url>
+	</scm>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
@@ -53,12 +64,12 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		 <extensions>
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-ftp</artifactId>
-      </extension>
-    </extensions>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ftp</artifactId>
+			</extension>
+		</extensions>
 	</build>
 
 	<distributionManagement>
