@@ -8,8 +8,8 @@ h4. Usage
 
 <pre>
 <code>
-	final EngageClient client = new EngageClient("apiKey", "accessToken");
-	final AuthInfo authInfo = client.authInfo(true);
+	EngageClient client = new EngageClient("apiKey", "accessToken");
+	AuthInfo authInfo = client.authInfo(true);
 </code>
 </pre>
 
