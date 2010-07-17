@@ -17,18 +17,7 @@ p. That's all you need to start playing with the "Engage API":https://rpxnow.com
 
 h4. Maven support
 
-p. If you're using maven, you can add this project directly to your dependency list. For that you first need to include its repository in your *pom.xml*:
-
-<pre>
-<code>
-	<repository>
-		<id>maven.isanchez.net</id>
-		<url>http://maven.isanchez.net/</url>
-	</repository>
-</code>
-</pre>
-
-p. Then the dependency can be described as:
+p. This library is publicly available at the central maven repository. Just add the dependency to your project:
 
 <pre>
 <code>
